@@ -33,7 +33,7 @@ public class CurrencyConverter {
                     case 1:
                         System.out.print("Enter a currency code to add to your favorites: ");
                         String currencyCode = reader.readLine().toUpperCase();
-                        favoriteCurrencies.put(currencyCode, null); // Initialize with null rate
+                        favoriteCurrencies.put(currencyCode, null); 
                         System.out.println(currencyCode + " added to your favorites.");
                         break;
 
